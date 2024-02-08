@@ -1,0 +1,138 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         /* взяли шрифты с google fonts и прописали правило font-family: 'Inter', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    /* это правила для центровочного контейнера */
+}
+
+.header-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex; 
+    margin: 0 auto;
+}
+
+.header-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;  
+}
+.info-box{
+    margin-top: 50px;
+    display: flex; 
+}
+
+.img{
+    width: 300px;
+    height: 300px; 
+}
+
+.info-list > li{
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: #9999A3;
+}
+.right > li{
+   color: black;
+}
+
+.main-wrapper{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.main-box{
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+
+}
+
+.main-content{
+    max-width: 64%;
+}
+
+.main-list:nth-child(1n){
+    color: rgb(230, 27, 196);
+}
+
+.main-text{
+    background-color: #720e0e;
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.more{
+    background-color: #4a13e2;
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.skills, .language, .about{
+    margin-left: 100px;
+    margin-bottom: 25px;
+    color: aqua;
+}
+
+.skills-text, .language-text, .about-text{
+    color: black;
+}
+
+.span{
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #9999A3;
+}
+
+.header-info{
+    border-radius: 5%;
+    background-color: #dddddd;
+    margin-left: 30px;
+}
+
+.name{
+    margin-left: 280px;
+}
+
+.ad-text{
+    margin-top: 5px;
+}
+
+.awards-text{
+    color: darkgoldenrod;
+}
+
+.awards{
+    margin-left: 100px;
+}
+
+.exp{
+    margin-left: 100px;
+    padding-bottom: 10px;
+}
